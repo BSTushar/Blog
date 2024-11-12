@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    font-size: 1.4rem;
+}
+html{
+    font-size: 62.5%;
+    /* gap: 10px; */
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+    font-size: 1.8rem;
+}
+
+nav ul li:hover{
+    border-bottom: #eeff00 2px solid;
+}
+
+/*Main*/
+main{
+    max-width: 1200px;
+    margin: 5rem auto;
+}
+
+.banner {
+    margin: 5rem auto;
+    display: block;
+    max-width: 100%; /* Ensures image is responsive */
+    border-radius: 1rem;
+    margin: 5rem auto;
+    
+}
+.bann{
+    margin: 5rem auto;
+}
+.bann h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 1rem; /* Adds space between title and the date/author */
+}
+
+.ff {
+    display: flex;
+    justify-content: start;  /* Aligns items to the left */
+    gap: 30px; /* Adds space between the two <p> elements */
+}
+
+.ff p {
+    margin: 0; /* Removes any default margin */
+}
+
+.monday{
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*Footer*/
